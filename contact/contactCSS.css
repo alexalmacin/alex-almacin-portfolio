@@ -28,7 +28,7 @@
 textarea {
   resize: none;
   height: 80px;
-  width: 200px;
+  width: 1000px;
 }
 
 .contact-form input, 
@@ -52,9 +52,10 @@ textarea {
   color: #fff;
   border: none;
   border-radius: 5px;
-  padding: 10px 120px;
+  padding: 10px 10px;
   font-size: 16px;
   cursor: pointer;
+  margin-bottom: 40px;
 }
 
 .contact-form button[type="submit"]:hover {
@@ -74,12 +75,16 @@ textarea {
 .paragraph {
   margin-top: 90px;
   margin-bottom: 45px;
-  margin-left: 30px;
+  margin-left: 10px;
   margin-right: 10px;
   border-radius: 10px;
   color: whitesmoke;
   background-color: #588157;
   font-size: 30px;
+  text-align: center;
+}
+.paragraph h1{
+  text-align: center;
 }
 #map {
   width: 100%;
