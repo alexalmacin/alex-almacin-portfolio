@@ -75,53 +75,44 @@ background-color: #588157;
 }
  /*card CSS*/
  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: auto;
-    margin: auto;
-    text-align: center;
-    align-items: center;
-  }
-  .card img{
-    padding-top: 100px;
-    width: 50%;
-    height: 50%;
-    float:none;
-  }
-  .card h1, p {
-    color: whitesmoke;
-    text-align: center;
-  }
-  .title {
-    color: whitesmoke;
-    font-size: 18px;
-  }
-  button {
-    border-radius: 25px;
-    border: 2px solid #588157;
-    border-style: dashed;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: whitesmoke;
-    background-color: transparent;
-    text-align: center;
-    cursor: pointer;
-    width: 25%;
-    font-size: 18px;
-    font-family: 'AuX DotBitC', sans-serif;
-  }
-  a {
-    text-decoration: none;
-    font-size: 22px;
-    color: whitesmoke;
-  }
-  button:hover, a:hover {
-    opacity: 0.7;
-  }
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: 'AuX DotBitC', sans-serif;
+  color: whitesmoke;
+}
 
-  .skills_h1{
-    margin-top: 20vh;
-  }
+.title {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+
+button {
+  border-style: dashed;
+  border-color: #588157;
+  border-radius: 10%;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: whitesmoke;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  font-family: 'AuX DotBitC', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
   .footer {
     position: fixed;
     bottom: 0;
@@ -129,4 +120,5 @@ background-color: #588157;
     background-color: #333; /* Example background color */
     color: white; /* Example text color */
     padding: 20px; /* Example padding */
+    padding-top: 20px;
   }
